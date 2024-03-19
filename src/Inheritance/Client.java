@@ -7,7 +7,7 @@ public class Client {
 //        s.setAge(20);
 //        System.out.println("AGe : " + s.getAge());
 
-        D x= new D();
+        D x = new D();
 
         System.out.println("Debug");
     }

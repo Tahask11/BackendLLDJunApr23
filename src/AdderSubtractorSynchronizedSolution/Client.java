@@ -6,7 +6,7 @@ import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
 
 public class Client {
-    public static void main(String[] args) throws ExecutionException, InterruptedException{
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         Value value = new Value();
         Adder adder = new Adder(value);
         Subtractor subtractor = new Subtractor(value);
@@ -22,7 +22,7 @@ public class Client {
         subFuture.get();
 
 
-        System.out.println("Value of val : "+ value.getVal());
+        System.out.println("Value of val : " + value.getVal());
     }
 }
 

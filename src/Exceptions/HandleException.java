@@ -9,7 +9,7 @@ public class HandleException {
         return a;
     }
 
-    static float divide(int a, int b) throws ArithmeticException{
+    static float divide(int a, int b) throws ArithmeticException {
         return a / b;
     }
 
@@ -21,10 +21,10 @@ public class HandleException {
             System.out.println("Exception found : " + e.getMessage());
             throw e;
         }
-        try{
+        try {
             divide(10, 0);
-        }catch(ArithmeticException e){
-            System.out.println("Exception found : "+ e);
+        } catch (ArithmeticException e) {
+            System.out.println("Exception found : " + e);
             throw e;
         }
 

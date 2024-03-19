@@ -4,10 +4,11 @@ import java.util.concurrent.ExecutionException;
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 import java.util.concurrent.Future;
-import java.util.concurrent.locks.*;
+import java.util.concurrent.locks.Lock;
+import java.util.concurrent.locks.ReentrantLock;
 
 public class Client {
-    public static void main(String[] args) throws ExecutionException, InterruptedException{
+    public static void main(String[] args) throws ExecutionException, InterruptedException {
         Value value = new Value();
         Lock lock = new ReentrantLock();
         Adder adder = new Adder(value, lock);
@@ -24,7 +25,7 @@ public class Client {
         subFuture.get();
 
 
-        System.out.println("Value of val : "+ value.val);
+        System.out.println("Value of val : " + value.val);
     }
 }
 

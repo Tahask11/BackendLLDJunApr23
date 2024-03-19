@@ -4,12 +4,12 @@ public class Exam {
     int exam_id;
     String name;
 
-    Exam(){
+    Exam() {
         exam_id = 0;
         name = "Akash";
     }
 
-    Exam(Exam other){
+    Exam(Exam other) {
         this.exam_id = other.exam_id;
         this.name = other.name;
     }

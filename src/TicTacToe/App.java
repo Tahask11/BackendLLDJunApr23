@@ -5,7 +5,6 @@ import TicTacToe.Exceptions.BotCountExceedsLimitException;
 import TicTacToe.Exceptions.DuplicateSymbolException;
 import TicTacToe.Exceptions.PlayersCountDimensionMismatchException;
 import TicTacToe.Models.*;
-import TicTacToe.Strategies.EasyPlayingStrategy;
 import TicTacToe.Strategies.RowWinningStrategy;
 import TicTacToe.Strategies.WinningStrategy;
 
@@ -28,17 +27,17 @@ public class App {
 
         Game game = gameController.startGame(3, players, strategies);
 
-        while(game.getGameState().equals(GameState.IN_PROGRESS)){
+        while (game.getGameState().equals(GameState.IN_PROGRESS)) {
             game.printBoard();
 
             game.makeMove();
         }
         game.makeMove();
-        if(game.getGameState().equals(GameState.CONCLUDED)){
+        if (game.getGameState().equals(GameState.CONCLUDED)) {
             System.out.println(game.getWinner() + " have won");
         }
 
-        if(game.getGameState().equals(GameState.DRAW)){
+        if (game.getGameState().equals(GameState.DRAW)) {
             System.out.println("It's a draw");
         }
     }

@@ -12,10 +12,10 @@ public class Cell {
         this.cellState = CellState.EMPTY;
     }
 
-    public void display(){
-        if(cellState.equals(CellState.EMPTY)){
+    public void display() {
+        if (cellState.equals(CellState.EMPTY)) {
             System.out.print("|_|");
-        }else{
+        } else {
             System.out.print("|" + player.getSymbol() + "|");
         }
     }
@@ -32,12 +32,12 @@ public class Cell {
         return cellState;
     }
 
-    public Player getPlayer() {
-        return player;
-    }
-
     public void setCellState(CellState cellState) {
         this.cellState = cellState;
+    }
+
+    public Player getPlayer() {
+        return player;
     }
 
     public void setPlayer(Player player) {

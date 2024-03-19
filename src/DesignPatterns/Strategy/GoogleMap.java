@@ -7,7 +7,7 @@ public class GoogleMap {
         this.pathCalculatorStrategy = pathCalculatorStrategy;
     }
 
-    public void findPath(String source, String destination){
+    public void findPath(String source, String destination) {
         pathCalculatorStrategy.calulcatePath(source, destination);
     }
 }

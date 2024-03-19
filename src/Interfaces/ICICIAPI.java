@@ -2,11 +2,12 @@ package Interfaces;
 
 public class ICICIAPI implements InterfaceUPI {
 
-    int fetchBalance(String userID){
+    int fetchBalance(String userID) {
         System.out.println("GetBalance of ICICI BANK");
         return 0;
     }
-    void sendMoney(String accntTo, String accntFrom){
+
+    void sendMoney(String accntTo, String accntFrom) {
         System.out.println("Trasfering money through ICICI");
     }
 

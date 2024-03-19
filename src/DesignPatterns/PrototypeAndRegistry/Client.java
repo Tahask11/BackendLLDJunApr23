@@ -1,7 +1,7 @@
 package DesignPatterns.PrototypeAndRegistry;
 
 public class Client {
-    public static void fillRegistry(StudentRegistry studentRegistry){
+    public static void fillRegistry(StudentRegistry studentRegistry) {
         Student AprBatchStudent = new Student(97, "AprBeg2021");
         Student JunBatchStudent = new Student(95, "JunBeg2023");
         studentRegistry.register("April", AprBatchStudent);
@@ -12,6 +12,7 @@ public class Client {
         studentRegistry.register("AprilIntelligent", AprBatchIntelStudent);
 
     }
+
     public static void main(String[] args) {
 
         StudentRegistry studentRegistry = new StudentRegistry();
@@ -38,7 +39,7 @@ public class Client {
         sandeep.setName("Sandeep");
         sandeep.setIq(130);
 
-        Student srikanth =  studentRegistry
+        Student srikanth = studentRegistry
                 .get("AprilIntelligent").clone();
 
 

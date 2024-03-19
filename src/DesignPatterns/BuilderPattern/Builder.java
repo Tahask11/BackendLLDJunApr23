@@ -8,7 +8,6 @@ public class Builder {
     long phnNo;
     int gradYear;
 
-
 //    public Student build() throws Exception{
 //        return new Student(this);
 //    }

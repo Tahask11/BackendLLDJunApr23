@@ -1,0 +1,213 @@
+@startuml
+
+/' diagram meta data start
+config=CallConfiguration;
+{
+  "rootMethod": "DesignPatterns.BuilderPattern.Client#main(String[])",
+  "projectClassification": {
+    "searchMode": "OpenProject", // OpenProject, AllProjects
+    "includedProjects": "",
+    "pathEndKeywords": "*.impl",
+    "isClientPath": "",
+    "isClientName": "",
+    "isTestPath": "",
+    "isTestName": "",
+    "isMappingPath": "",
+    "isMappingName": "",
+    "isDataAccessPath": "",
+    "isDataAccessName": "",
+    "isDataStructurePath": "",
+    "isDataStructureName": "",
+    "isInterfaceStructuresPath": "",
+    "isInterfaceStructuresName": "",
+    "isEntryPointPath": "",
+    "isEntryPointName": "",
+    "treatFinalFieldsAsMandatory": false
+  },
+  "graphRestriction": {
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "removeByInheritance": "", // inheritance/annotation based filtering is done in a second step
+    "removeByAnnotation": "",
+    "removeByClassPackage": "", // cleanup the graph after inheritance/annotation based filtering is done
+    "removeByClassName": "",
+    "cutMappings": true,
+    "cutEnum": true,
+    "cutTests": true,
+    "cutClient": true,
+    "cutDataAccess": true,
+    "cutInterfaceStructures": true,
+    "cutDataStructures": true,
+    "cutGetterAndSetter": true,
+    "cutConstructors": true
+  },
+  "graphTraversal": {
+    "forwardDepth": 3,
+    "backwardDepth": 3,
+    "classPackageExcludeFilter": "",
+    "classPackageIncludeFilter": "",
+    "classNameExcludeFilter": "",
+    "classNameIncludeFilter": "",
+    "methodNameExcludeFilter": "",
+    "methodNameIncludeFilter": "",
+    "hideMappings": false,
+    "hideDataStructures": false,
+    "hidePrivateMethods": true,
+    "hideInterfaceCalls": true, // indirection: implementation -> interface (is hidden) -> implementation
+    "onlyShowApplicationEntryPoints": false, // root node is included
+    "useMethodCallsForStructureDiagram": "ForwardOnly" // ForwardOnly, BothDirections, No
+  },
+  "details": {
+    "aggregation": "GroupByClass", // ByClass, GroupByClass, None
+    "showMethodParametersTypes": true,
+    "showMethodParametersNames": true,
+    "showMethodReturnType": true,
+    "showPackageLevels": 4,
+    "showCallOrder": true,
+    "edgeMode": "TypesAndMethods", // TypesOnly, MethodsOnly, TypesAndMethods, MethodsAndDirectTypeUsage
+    "showDetailedClassStructure": true
+  },
+  "rootClass": "DesignPatterns.BuilderPattern.Client",
+  "extensionCallbackMethod": "" // qualified.class.name#methodName - signature: public static String method(String)
+}
+diagram meta data end '/
+
+
+
+digraph g {
+    rankdir="LR"
+    splines=polyline
+    
+
+'nodes 
+subgraph cluster_1754289259 { 
+   	label=BuilderPattern
+	labeljust=l
+	fillcolor="#ececec"
+	style=filled
+   
+   Student800631362[
+	label=<<TABLE BORDER="1" CELLBORDER="0" CELLPADDING="4" CELLSPACING="0">
+<TR><TD ALIGN="LEFT" >(C)Student</TD></TR>
+<HR/>
+<TR><TD ALIGN="LEFT" >#   age: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   gradYear: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   name: String [0..1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   phnNo: long [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   psp: int [1]</TD></TR>
+<TR><TD ALIGN="LEFT" >#   univName: String [0..1]</TD></TR>
+</TABLE>>
+	style=filled
+	margin=0
+	shape=plaintext
+	fillcolor="#FFFFFF"
+];
+
+subgraph cluster_1477865666 { 
+   	label=Student
+	labeljust=l
+	fillcolor="#d8d8d8"
+	style=filled
+   
+   subgraph cluster_1598892796 { 
+   	label=Builder
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   Builder1086354031XXXbuild0[
+	label="+ build(): Student"
+	style=filled
+	fillcolor=white
+	tooltip="Builder
+
+null"
+	fontcolor=darkgreen
+];
+
+Builder1086354031XXXsetAge104431[
+	label="+ setAge(age: int): Builder"
+	style=filled
+	fillcolor=white
+	tooltip="Builder
+
+null"
+	fontcolor=darkgreen
+];
+
+Builder1086354031XXXsetGradYear104431[
+	label="+ setGradYear(gradYear: int): Builder"
+	style=filled
+	fillcolor=white
+	tooltip="Builder
+
+null"
+	fontcolor=darkgreen
+];
+
+Builder1086354031XXXsetName1808118735[
+	label="+ setName(name: String): Builder"
+	style=filled
+	fillcolor=white
+	tooltip="Builder
+
+null"
+	fontcolor=darkgreen
+];
+
+Builder1086354031XXXsetPsp104431[
+	label="+ setPsp(psp: int): Builder"
+	style=filled
+	fillcolor=white
+	tooltip="Builder
+
+null"
+	fontcolor=darkgreen
+];
+
+Builder1086354031XXXsetUnivName1808118735[
+	label="+ setUnivName(univName: String): Builder"
+	style=filled
+	fillcolor=white
+	tooltip="Builder
+
+null"
+	fontcolor=darkgreen
+];
+} 
+} 
+
+subgraph cluster_2063084823 { 
+   	label=Client
+	labeljust=l
+	fillcolor=white
+	style=filled
+   
+   Client800631362XXXmain1859653459[
+	label="+ main(args: String[])"
+	style=filled
+	fillcolor=white
+	tooltip="Client
+
+null"
+	penwidth=4
+	fontcolor=darkgreen
+];
+} 
+} 
+
+'edges    
+Builder1086354031XXXbuild0 -> Student800631362[label=return, style=dashed];
+Client800631362XXXmain1859653459 -> Builder1086354031XXXbuild0[label=0];
+Client800631362XXXmain1859653459 -> Builder1086354031XXXsetAge104431[label=5];
+Client800631362XXXmain1859653459 -> Builder1086354031XXXsetGradYear104431[label=3];
+Client800631362XXXmain1859653459 -> Builder1086354031XXXsetName1808118735[label=4];
+Client800631362XXXmain1859653459 -> Builder1086354031XXXsetPsp104431[label=2];
+Client800631362XXXmain1859653459 -> Builder1086354031XXXsetUnivName1808118735[label=1];
+    
+}
+@enduml

@@ -1,11 +1,12 @@
 package Interfaces;
 
-public class YesBankAPI implements InterfaceUPI{
-    int getBalance(String accnt){
+public class YesBankAPI implements InterfaceUPI {
+    int getBalance(String accnt) {
         System.out.println("GetBalance of YEs BANK");
         return 0;
     }
-    void transferMoney(String accntFrom, String accntTo){
+
+    void transferMoney(String accntFrom, String accntTo) {
         System.out.println("Trasfering money through Yesbank");
     }
 

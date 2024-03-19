@@ -14,10 +14,10 @@ public class IntelligentStudent extends Student {
         this.minIQ = other.minIQ;
     }
 
-    @Override
-    public IntelligentStudent clone(){
-        return new IntelligentStudent(this);
-    }
+//    @Override
+//    public IntelligentStudent clone(){
+//        return new IntelligentStudent(this);
+//    }
 
     public int getMinIQ() {
         return minIQ;

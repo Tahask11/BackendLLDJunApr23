@@ -29,11 +29,11 @@ public class PhonePe {
 
     InterfaceUPI upi = new ICICIAPI();
 
-    int getBalance(String accnt){
+    int getBalance(String accnt) {
         return upi.checkBalance(accnt);
     }
 
-    void transfer(String accntFrm, String accntTo){
+    void transfer(String accntFrm, String accntTo) {
         upi.transfer(accntFrm, accntTo);
     }
 

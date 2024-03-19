@@ -10,7 +10,7 @@ public class Client {
 
         DemoFuncInterface dIntf = new DemoFuncInterface() {
             @Override
-            public void fun(){
+            public void fun() {
                 System.out.println("Called from Anonymous function/ Inline class");
             }
         };
@@ -22,7 +22,7 @@ public class Client {
             }
 
             @Override
-            public void fun2(){
+            public void fun2() {
                 System.out.println("Overriding the default method");
             }
         };
@@ -30,7 +30,7 @@ public class Client {
         dIntf.fun();
         dIntf.fun2();
 
-        Consumer<Integer> PrintInteger = new Consumer<Integer>(){
+        Consumer<Integer> PrintInteger = new Consumer<Integer>() {
             @Override
             public void accept(Integer a) {
                 System.out.println("I am integer :" + a);
@@ -42,13 +42,12 @@ public class Client {
         Predicate<Integer> checkEven = new Predicate<Integer>() {
             @Override
             public boolean test(Integer a) {
-                return a%2 == 0;
+                return a % 2 == 0;
             }
         };
 
         System.out.println(checkEven.test(10));
         System.out.println(checkEven.test(11));
-
 
 
     }

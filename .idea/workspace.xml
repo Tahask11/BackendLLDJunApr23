@@ -4,10 +4,279 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="be23e7e9-fb51-4c34-9592-2b4e3ae23287" name="Default Changelist" comment="">
+    <list default="true" id="be23e7e9-fb51-4c34-9592-2b4e3ae23287" name="Default Changelist" comment="removed incorrect package reference&#10;Added toString Method to Student Object">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/Animal.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/Animal.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/BullDog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/BullDog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AbstractClass/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AccessModifiers/ChildStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AccessModifiers/ChildStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AccessModifiers/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AccessModifiers/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Subtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Subtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractor/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Subtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Subtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSolution/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Adder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Adder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Subtractor.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Subtractor.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Value.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AdderSubtractorSynchronizedSolution/Value.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AgeComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/AgeComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Constructors/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Constructors/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Constructors/Exam.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Constructors/Exam.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Constructors/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Constructors/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Android/AndroidButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Android/AndroidButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Android/AndroidDropdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Android/AndroidDropdown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Android/AndroidUIFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Android/AndroidUIFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Button.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Button.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Dropdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Dropdown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Flutter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/Flutter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/FlutterAndroid.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/FlutterAndroid.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/FlutterIOS.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/FlutterIOS.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/FlutterInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/FlutterInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/IOS/IOSButton.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/IOS/IOSButton.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/IOS/IOSDropdown.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/IOS/IOSDropdown.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/IOS/IOSUIFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/IOS/IOSUIFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/UIFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/UIFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/UIFactoryFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/AbstractFactory/UIFactoryFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BalanceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BalanceRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BalanceResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BalanceResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BankAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/BankAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/HDFCBankAdapter/HDFCBankAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/HDFCBankAdapter/HDFCBankAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/HDFCBalanceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/HDFCBalanceRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/HDFCBalanceResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/HDFCBalanceResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/HDFCBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/HDFCBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/YesBank.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/YesBank.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/YesBankBalanceRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/YesBankBalanceRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/YesBankBalanceResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/Library/YesBankBalanceResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/PhonePe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/PhonePe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/YesBankAdapter/YesBankAdapter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Adapter/YesBankAdapter/YesBankAdapter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/BuilderPattern/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/Burger.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/Burger.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/CheeseDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/CheeseDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/MenuItem.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/MenuItem.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/PaneerDecorator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/PaneerDecorator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/Pizza.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Decorator/Pizza.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/Amazon.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/Amazon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OnOrderPlaceSubscribers/InventoryUpdate.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OnOrderPlaceSubscribers/InventoryUpdate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OnOrderPlaceSubscribers/InvoiceGeneration.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OnOrderPlaceSubscribers/InvoiceGeneration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OnOrderPlaceSubscribers/SendNotification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OnOrderPlaceSubscribers/SendNotification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OrderPlacedSubscriber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Observer/OrderPlacedSubscriber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/Prototype.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/Prototype.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/StudentRegistry.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/PrototypeAndRegistry/StudentRegistry.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/DatabaseConnection.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/DatabaseConnection.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/DatabaseConnection2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/DatabaseConnection2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/DatabaseConnection3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Singleton/DatabaseConnection3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/BikePathCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/BikePathCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/CarPathCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/CarPathCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/GoogleMap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/GoogleMap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/GoogleMap2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/GoogleMap2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/IPathCalculatorStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/IPathCalculatorStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/PathCalculatorFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/PathCalculatorFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/WalkPathCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/DesignPatterns/Strategy/WalkPathCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/CenturianException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/CenturianException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/DenominatorZeroException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/DenominatorZeroException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/DivideByZero.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/DivideByZero.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/HandleException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/HandleException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/StackOverflowDemo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Exceptions/StackOverflowDemo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Generics/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Generics/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Generics/Pair.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Generics/Pair.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/A.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/A.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/B.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/B.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/C.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/C.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/D.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/D.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Inheritance/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/HDFCAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/HDFCAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/ICICIAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/ICICIAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/InterfaceUPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/InterfaceUPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/PhonePe.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/PhonePe.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/YesBankAPI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Interfaces/YesBankAPI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToOOPs/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToOOPs/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToOOPs/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToOOPs/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/Client4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/FetchName.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/FetchName.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/HelloWorldPrinter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/HelloWorldPrinter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/PrintNumber.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/IntroToThreads/PrintNumber.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/MultithreadedMergeSort/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/MultithreadedMergeSort/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/MultithreadedMergeSort/Sorter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/MultithreadedMergeSort/Sorter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Polymorphism/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Polymorphism/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Polymorphism/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Polymorphism/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Polymorphism/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Polymorphism/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumer/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Consumer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Consumer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Producer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Producer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Store.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/ProducerConsumerSemaphores/Store.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/SalaryComparator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/SalaryComparator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/StaticPackage/BullDog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/StaticPackage/BullDog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/StaticPackage/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/StaticPackage/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/StaticPackage/Dog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/StaticPackage/Dog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Streams/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Student.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/Student.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/App.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Controllers/GameController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Exceptions/BotCountExceedsLimitException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Exceptions/BotCountExceedsLimitException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Exceptions/DuplicateSymbolException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Exceptions/DuplicateSymbolException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Exceptions/PlayersCountDimensionMismatchException.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Exceptions/PlayersCountDimensionMismatchException.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Factories/BotPlayingStrategyFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Factories/BotPlayingStrategyFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Board.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotDifficultyLevel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotDifficultyLevel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Cell.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/CellState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/CellState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$Builder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/GameState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/GameState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/HumanPlayer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Move.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Move.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/PlayerType.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/PlayerType.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/BotPlayingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/BotPlayingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/EasyPlayingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/EasyPlayingStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/RowWinningStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/RowWinningStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/WinningStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/WinningStrategy.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Validations/CellValidation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Validations/CellValidation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Validations/GameValidations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Validations/GameValidations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/Client.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/DemoFuncInterface.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/DemoFuncInterface.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/DemoImplementation.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/DemoImplementation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/LambdaClient$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/LambdaClient$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/LambdaClient$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/LambdaClient$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/LambdaClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/LambdaClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/PrintHello.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/lambdas/PrintHello.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scalerBackendLLDAprJun23.iml" beforeDir="false" afterPath="$PROJECT_DIR$/scalerBackendLLDAprJun23.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClass/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractClass/Animal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClass/BullDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractClass/BullDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AbstractClass/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AbstractClass/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AccessModifiers/ChildStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AccessModifiers/ChildStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractor/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractor/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractor/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractor/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractor/Subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractor/Subtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorSolution/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorSolution/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorSolution/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorSolution/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorSolution/Subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorSolution/Subtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Adder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Adder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Subtractor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Subtractor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Value.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution/Value.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constructors/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constructors/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Constructors/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Constructors/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Flutter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/Flutter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/AbstractFactory/UIFactoryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Adapter/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/HDFCBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/HDFCBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/YesBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/Library/YesBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Adapter/PhonePe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/PhonePe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Adapter/YesBankAdapter/YesBankAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Adapter/YesBankAdapter/YesBankAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Decorator/MenuItem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Observer/Amazon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Observer/Amazon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/IntelligentStudent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/StudentRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/StudentRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Singleton/DatabaseConnection3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/GoogleMap2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/Strategy/PathCalculatorFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/Strategy/PathCalculatorFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/DenominatorZeroException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/DenominatorZeroException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/DivideByZero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/DivideByZero.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/HandleException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/HandleException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exceptions/StackOverflowDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Exceptions/StackOverflowDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Generics/Pair.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Generics/Pair.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/A.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/B.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/B.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/C.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/C.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/D.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/D.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Inheritance/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Inheritance/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/ICICIAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/ICICIAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/InterfaceUPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/InterfaceUPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/PhonePe.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/PhonePe.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Interfaces/YesBankAPI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Interfaces/YesBankAPI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToOOPs/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToOOPs/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToThreads/Client2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToThreads/Client2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToThreads/Client3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToThreads/Client3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToThreads/FetchName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToThreads/FetchName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToThreads/HelloWorldPrinter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToThreads/HelloWorldPrinter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/IntroToThreads/PrintNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IntroToThreads/PrintNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadedMergeSort/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadedMergeSort/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MultithreadedMergeSort/Sorter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MultithreadedMergeSort/Sorter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Polymorphism/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Polymorphism/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Polymorphism/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumer/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumer/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumer/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumer/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumer/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumer/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumer/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumer/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Consumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Consumer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Producer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Producer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ProducerConsumerSemaphores/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticPackage/BullDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticPackage/BullDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticPackage/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticPackage/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/StaticPackage/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/StaticPackage/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Streams/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Streams/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Student.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Controllers/GameController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Factories/BotPlayingStrategyFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Factories/BotPlayingStrategyFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Board.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Board.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Cell.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Cell.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/EasyPlayingStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Validations/CellValidation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Validations/CellValidation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Validations/GameValidations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Validations/GameValidations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/DemoFuncInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/DemoFuncInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/DemoImplementation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/DemoImplementation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/LambdaClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/LambdaClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lambdas/PrintHello.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/lambdas/PrintHello.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -156,6 +425,8 @@
         <option value="Gradle Kotlin DSL Build Script" />
         <option value="Python Script" />
         <option value="Enum" />
+        <option value="UML Class" />
+        <option value="UML Use Case" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -177,6 +448,11 @@
     </dirStrings>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
@@ -236,9 +512,12 @@
       </list>
     </option>
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 4
-}]]></component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="23" />
@@ -246,7 +525,9 @@
     <option name="height" value="733" />
   </component>
   <component name="ProjectId" id="2dtluPy6GDycNC6tiHUVveyHFUN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -317,13 +598,34 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Client.executor": "Run",
+    "Application.Client2.executor": "Run",
+    "Application.Client21.executor": "Run",
+    "Application.DesignPatterns.AbstractFactory.App.executor": "Run",
+    "Application.DesignPatterns.AbstractFactory2.App.executor": "Run",
+    "Application.DesignPatterns.PrototypeAndRegistry2.Client.executor": "Run",
+    "Application.app.executor": "Run",
+    "Application.client.executor": "Run",
+    "DefaultPlantUmlFileTemplate": "UML Use Case",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "Cherry-picking in PracticeGround",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "settings.editor.selected.configurable": "preferences.intentionPowerPack"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="DesignPatterns.AbstractFactory2" />
+      <recent name="TicTacToe.Exceptions" />
+      <recent name="TicTacToe.Strategies" />
+      <recent name="TicTacToe.Models" />
+      <recent name="DesignPatterns.Observer" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ProducerConsumerSemaphores" />
       <recent name="$PROJECT_DIR$/src/AdderSubtractorSynchronizedSolution" />
@@ -334,21 +636,14 @@
       <recent name="DesignPatterns.Singleton" />
       <recent name="AccessModifiers" />
     </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="TicTacToe.Exceptions" />
-      <recent name="TicTacToe.Strategies" />
-      <recent name="TicTacToe.Models" />
-      <recent name="DesignPatterns.Observer" />
-      <recent name="DesignPatterns.Adapter.Library" />
-    </key>
   </component>
-  <component name="RunManager" selected="Application.Client">
-    <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Strategy.App" />
+  <component name="RunManager" selected="Application.Client21">
+    <configuration name="Client2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroToThreads.Client2" />
       <module name="scalerBackendLLDAprJun23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Strategy.*" />
+          <option name="PATTERN" value="IntroToThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -356,12 +651,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Observer.App" />
+    <configuration name="Client21" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IntroToThreads.Client21" />
       <module name="scalerBackendLLDAprJun23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Observer.*" />
+          <option name="PATTERN" value="IntroToThreads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -369,12 +664,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TicTacToe.App" />
+    <configuration name="DesignPatterns.AbstractFactory2.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstractFactory2.App" />
       <module name="scalerBackendLLDAprJun23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="TicTacToe.*" />
+          <option name="PATTERN" value="DesignPatterns.AbstractFactory2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -382,12 +677,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Adapter.App" />
+    <configuration name="DesignPatterns.AbstractFactory.App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstractFactory.App" />
       <module name="scalerBackendLLDAprJun23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Adapter.Library.*" />
+          <option name="PATTERN" value="DesignPatterns.AbstractFactory.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,53 +690,33 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.Decorator.App" />
+    <configuration name="app" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstractFactory2.app" />
       <module name="scalerBackendLLDAprJun23" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesignPatterns.Decorator.*" />
+          <option name="PATTERN" value="DesignPatterns.AbstractFactory2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BuilderPattern.Client" />
-      <module name="scalerBackendLLDAprJun23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.BuilderPattern.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="scalerBackendLLDAprJun23" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Client" />
-      <item itemvalue="Application.App (1)" />
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.App (2)" />
-      <item itemvalue="Application.App (3)" />
+      <item itemvalue="Application.Client2" />
+      <item itemvalue="Application.Client21" />
+      <item itemvalue="Application.DesignPatterns.AbstractFactory2.App" />
+      <item itemvalue="Application.app" />
+      <item itemvalue="Application.DesignPatterns.AbstractFactory.App" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Client" />
-        <item itemvalue="Application.App (3)" />
-        <item itemvalue="Application.App (2)" />
-        <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.App (1)" />
+        <item itemvalue="Application.DesignPatterns.AbstractFactory.App" />
+        <item itemvalue="Application.app" />
+        <item itemvalue="Application.DesignPatterns.AbstractFactory2.App" />
+        <item itemvalue="Application.Client21" />
+        <item itemvalue="Application.Client2" />
       </list>
     </recent_temporary>
   </component>
@@ -464,6 +739,15 @@
       <option name="presentableId" value="Default" />
       <updated>1704381917207</updated>
     </task>
+    <task id="LOCAL-00001" summary="removed incorrect package reference&#10;Added toString Method to Student Object">
+      <option name="closed" value="true" />
+      <created>1710842028448</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1710842028448</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -528,6 +812,68 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1072b2ef-0068-4204-9857-6aaffb04408c" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="1072b2ef-0068-4204-9857-6aaffb04408c">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:D:/02Projects/01Personal/ScalerNotes/BackendLLDJunApr23/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+            </State>
+          </value>
+        </entry>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="PracticeGround" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="removed incorrect package reference&#10;Added toString Method to Student Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="removed incorrect package reference&#10;Added toString Method to Student Object" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -596,7 +942,7 @@
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/TicTacToe/Models/Game.java</url>
           <line>68</line>
-          <properties class="TicTacToe.Models.Game" method="getBuilder">
+          <properties class="TicTacToe.Models.Game">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="25" />

@@ -1,33 +1,31 @@
 package Exceptions;
 
 public class DivideByZero {
-    static float divide(int a, int b) throws DenominatorZeroException, CenturianException{
-        if(b == 0){
+    static float divide(int a, int b) throws DenominatorZeroException, CenturianException {
+        if (b == 0) {
             throw new DenominatorZeroException("Denominator cannot be zero");
         }
-        if(b==100){
+        if (b == 100) {
             throw new CenturianException();
         }
-        return a/b;
+        return a / b;
     }
 
     public static void main(String[] args) {
-        if(true){
+        if (true) {
             return;
         }
-        try{
-            divide(10,10);
+        try {
+            divide(10, 10);
             return;
-        }catch(DenominatorZeroException e){
+        } catch (DenominatorZeroException e) {
             System.out.println(e.getMessage());
-        }catch(CenturianException e){
+        } catch (CenturianException e) {
             //centurian specific logic
-        }
-        catch(Exception e){
-            System.out.println("Exception occured : "+ e.getMessage());
+        } catch (Exception e) {
+            System.out.println("Exception occured : " + e.getMessage());
             throw e;
-        }
-        finally {
+        } finally {
             System.out.println("I will always execute");
         }
 

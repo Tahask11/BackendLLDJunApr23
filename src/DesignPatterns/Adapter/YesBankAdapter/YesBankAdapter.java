@@ -11,16 +11,16 @@ public class YesBankAdapter implements BankAdapter {
     YesBank yb = new YesBank();
 
 
-    public YesBankBalanceRequest convertBalanceRequest(BalanceRequest balanceRequest){
+    public YesBankBalanceRequest convertBalanceRequest(BalanceRequest balanceRequest) {
         //Conversion logic
-        if(balanceRequest.getAccountName() != null){
+        if (balanceRequest.getAccountName() != null) {
             return new YesBankBalanceRequest(balanceRequest.getAccountName());
         }
         //Throw an exception
         return null;
     }
 
-    public BalanceResponse convertBalanceResponse(YesBankBalanceResponse ybResponse){
+    public BalanceResponse convertBalanceResponse(YesBankBalanceResponse ybResponse) {
         BalanceResponse balanceResponse = new BalanceResponse();
 
         balanceResponse.setAccountName(ybResponse.getAccountName());
@@ -33,7 +33,7 @@ public class YesBankAdapter implements BankAdapter {
     @Override
     public BalanceResponse getBalance(BalanceRequest balanceRequest) {
         YesBankBalanceRequest ybReq = convertBalanceRequest(balanceRequest);
-        YesBankBalanceResponse ybRes =  yb.balance(ybReq);
+        YesBankBalanceResponse ybRes = yb.balance(ybReq);
         return convertBalanceResponse(ybRes);
     }
 }

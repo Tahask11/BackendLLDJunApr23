@@ -1,36 +1,41 @@
 package MultithreadedMergeSort;
-import java.util.*;
-import java.util.concurrent.*;
 
-public class Sorter implements Callable<List<Integer>>{
+import java.util.ArrayList;
+import java.util.List;
+import java.util.concurrent.Callable;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Future;
+
+public class Sorter implements Callable<List<Integer>> {
 
     List<Integer> arrToSort;
     ExecutorService es;
 
 
-    public Sorter(List<Integer> arrToSort, ExecutorService es){
+    public Sorter(List<Integer> arrToSort, ExecutorService es) {
         this.es = es;
         this.arrToSort = arrToSort;
     }
 
     @Override
-    public List<Integer> call() throws ExecutionException, InterruptedException{
+    public List<Integer> call() throws ExecutionException, InterruptedException {
 
-        if(arrToSort.size() <= 1){
+        if (arrToSort.size() <= 1) {
             return arrToSort;
         }
 
         int size = arrToSort.size();
-        int mid = size/2;
+        int mid = size / 2;
 
         List<Integer> leftArr = new ArrayList<Integer>();
         List<Integer> rightArr = new ArrayList<Integer>();
 
-        for(int i=0;i<mid;i++){
+        for (int i = 0; i < mid; i++) {
             leftArr.add(arrToSort.get(i));
         }
 
-        for(int i=mid;i<size;i++){
+        for (int i = mid; i < size; i++) {
             rightArr.add(arrToSort.get(i));
         }
 
@@ -47,7 +52,7 @@ public class Sorter implements Callable<List<Integer>>{
         List<Integer> sortedRightArray = rightSorterFuture.get();
 
         // Merging the two sorted arrays
-        int i= 0; // start of left
+        int i = 0; // start of left
         int j = 0; //start of right
 
         List<Integer> sortedArray = new ArrayList();

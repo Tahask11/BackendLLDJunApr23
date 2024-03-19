@@ -1,8 +1,8 @@
-import java.util.*;
-import java.util.concurrent.Callable;
-import java.util.function.Function;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 
-class AgeComparator implements Comparator<Student>{
+class AgeComparator implements Comparator<Student> {
 
     @Override
     public int compare(Student o1, Student o2) {
@@ -21,13 +21,14 @@ class AgeComparator implements Comparator<Student>{
     }
 }
 
-class SalaryComparator implements Comparator<Student>{
+class SalaryComparator implements Comparator<Student> {
 
     @Override
     public int compare(Student o1, Student o2) {
         return o1.salary - o2.salary;
     }
 }
+
 public class Main {
 
     public static void main(String[] args) {
@@ -64,7 +65,9 @@ public class Main {
 
         //Collections , comparable and comparator
         ArrayList<Integer> ar = new ArrayList<Integer>();
-        ar.add(4);ar.add(1);ar.add(3);
+        ar.add(4);
+        ar.add(1);
+        ar.add(3);
 
         Collections.sort(ar);
         System.out.println(ar.toString());
@@ -78,10 +81,10 @@ public class Main {
 
 //        Collections.sort(studAr, new AgeComparator());
 //        Collections.sort(studAr, new SalaryComparator());
-         Collections.sort(studAr);
-         Collections.sort(studAr, (o1,o2) -> {
-             return o1.age - o2.age;
-         });
+        Collections.sort(studAr);
+        Collections.sort(studAr, (o1, o2) -> {
+            return o1.age - o2.age;
+        });
 
 //         Collections.sort(studAr, new Comparator<Student>() {
 //             @Override
@@ -89,7 +92,7 @@ public class Main {
 //                 return o1.age-o2.age;
 //             }
 //         })
-        for(Student s : studAr){
+        for (Student s : studAr) {
             System.out.println(s.name);
         }
     }

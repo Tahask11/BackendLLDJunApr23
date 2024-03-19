@@ -2,7 +2,7 @@ package AbstractClass;
 
 public abstract class Dog extends Animal {
 
-    void chasingCars(){
+    void chasingCars() {
         System.out.println("Chasing car");
     }
 //    @Override

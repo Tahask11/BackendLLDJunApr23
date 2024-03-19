@@ -1,10 +1,5 @@
 package lambdas;
 
-import ProducerConsumer.Consumer;
-
-import java.util.ArrayList;
-import java.util.concurrent.Callable;
-
 public class LambdaClient {
     public static void main(String[] args) {
         //Old implementation(without lambda)
@@ -27,7 +22,7 @@ public class LambdaClient {
 
 
         //Simplify
-        Thread t2 = new Thread(new Runnable(){
+        Thread t2 = new Thread(new Runnable() {
             @Override
             public void run() {
                 System.out.println("Hello World from " + Thread.currentThread().getName());
@@ -42,8 +37,6 @@ public class LambdaClient {
         });
 
         t3.start();
-
-
 
 
     }

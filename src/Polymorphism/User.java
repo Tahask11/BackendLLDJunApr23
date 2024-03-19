@@ -1,7 +1,7 @@
 package Polymorphism;
 
 public class User {
-    static void print(){
+    static void print() {
         System.out.println("hello User");
     }
 }

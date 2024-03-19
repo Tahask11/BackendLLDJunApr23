@@ -1,11 +1,13 @@
 package TicTacToe.Models;
+
 import TicTacToe.Exceptions.BotCountExceedsLimitException;
 import TicTacToe.Exceptions.DuplicateSymbolException;
 import TicTacToe.Exceptions.PlayersCountDimensionMismatchException;
 import TicTacToe.Strategies.WinningStrategy;
 import TicTacToe.Validations.GameValidations;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Game {
     private Board board;
@@ -26,37 +28,40 @@ public class Game {
         this.moves = new ArrayList<>();
     }
 
-    public void printBoard(){
+    public static Builder getBuilder() {
+        return new Builder();
+    }
+
+    public void printBoard() {
         board.display();
     }
 
-    public void makeMove(){
+    public void makeMove() {
         Player player = players.get(nextPlayerIndex);
         Cell cell = player.makeMove(this.board);
 
         Move move = new Move(player, cell);
         this.moves.add(move);
 
-        if(checkWinner(this.board, move)){
+        if (checkWinner(this.board, move)) {
             this.gameState = GameState.CONCLUDED;
             this.winner = player;
             return;
         }
 
-        if(this.moves.size() == this.board.getDimension()* this.board.getDimension()){
+        if (this.moves.size() == this.board.getDimension() * this.board.getDimension()) {
             this.gameState = GameState.DRAW;
             return;
         }
-
 
 
         nextPlayerIndex++;
         nextPlayerIndex %= players.size();
     }
 
-    private boolean checkWinner(Board board, Move move){
-        for(WinningStrategy ws: this.winningStrategyList){
-            if(ws.checkWin(board, move)){
+    private boolean checkWinner(Board board, Move move) {
+        for (WinningStrategy ws : this.winningStrategyList) {
+            if (ws.checkWin(board, move)) {
                 return true;
             }
         }
@@ -76,11 +81,7 @@ public class Game {
         return winner;
     }
 
-    public static Builder getBuilder(){
-        return new Builder();
-    }
-
-    public  static class Builder {
+    public static class Builder {
         Integer dimension;
         List<Player> players;
         List<WinningStrategy> winningStrategyList;

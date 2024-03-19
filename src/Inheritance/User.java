@@ -4,14 +4,13 @@ public class User {
     int user_id;
     private int age;
 
-    
 
-    int getAge(){
+    int getAge() {
         return age;
     }
 
-    void setAge(int age){
-        if(age > 0) {
+    void setAge(int age) {
+        if (age > 0) {
             this.age = age;
         }
     }

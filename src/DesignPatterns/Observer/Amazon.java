@@ -10,16 +10,17 @@ public class Amazon {
         this.opsList = new ArrayList<>();
     }
 
-    public void registerSubscriber(OrderPlacedSubscriber ops){
+    public void registerSubscriber(OrderPlacedSubscriber ops) {
         opsList.add(ops);
     }
 
-    public void unRegisterSubscriber(OrderPlacedSubscriber ops){
+    public void unRegisterSubscriber(OrderPlacedSubscriber ops) {
         opsList.remove(ops);
     }
-    public void placeOrder(){
+
+    public void placeOrder() {
         System.out.println("Order is placed");
-        for(OrderPlacedSubscriber ops: opsList){
+        for (OrderPlacedSubscriber ops : opsList) {
             ops.onOrderPlace();
         }
     }

@@ -7,12 +7,13 @@ public class Student implements Prototype<Student> {
     int avgBatchPSP; // Batch specific properties
     String batchName; // Batch specific properties
 
-    public Student(int avgBatchPSP, String batchName){
+    public Student(int avgBatchPSP, String batchName) {
         this.avgBatchPSP = avgBatchPSP;
         this.batchName = batchName;
     }
+
     //copy constructor
-    public Student(Student other){
+    public Student(Student other) {
         this.batchName = other.batchName;
         this.avgBatchPSP = other.avgBatchPSP;
     }

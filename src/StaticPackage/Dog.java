@@ -4,11 +4,11 @@ public class Dog {
     static int age;
     String name;
 
-    static void doSomething(){
+    static void doSomething() {
         System.out.println("Something in Dog");
     }
 
-    void print(){
+    void print() {
         System.out.println("Print");
     }
 

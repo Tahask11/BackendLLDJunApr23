@@ -1,9 +1,9 @@
 package Inheritance;
 
 public class A {
-     int a;
+    int a;
 
-     public A(){
-         System.out.println("Constructor of A called!");
-     }
+    public A() {
+        System.out.println("Constructor of A called!");
+    }
 }

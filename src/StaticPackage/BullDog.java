@@ -8,12 +8,13 @@ public class BullDog extends Dog {
     //can't override static method with non static
     //
 
-    static void doSomething(){
+    static void doSomething() {
         System.out.println("Something in bulldog");
     }
+
     //print Inherited from DOG
     @Override
-    void print(){
+    void print() {
         System.out.println("BUlldog print");
     }
 }

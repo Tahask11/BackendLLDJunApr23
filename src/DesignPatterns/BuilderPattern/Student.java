@@ -1,7 +1,5 @@
 package DesignPatterns.BuilderPattern;
 
-import javax.xml.validation.Validator;
-
 public class Student {
     String name;
     int age;
@@ -10,22 +8,18 @@ public class Student {
     long phnNo;
     int gradYear;
 
-    public static Builder getBuilder(){
-        return new Builder();
-    }
-
-    private Student(Builder studB) throws Exception{
-        if(studB.name != null){
-            if(studB.name.length() <= 1){
+    private Student(Builder studB) throws Exception {
+        if (studB.name != null) {
+            if (studB.name.length() <= 1) {
                 throw new Exception("Validation Failed");
             }
         }
 
-        if(studB.age < 20){
-            throw  new Exception("Validation Failed");
+        if (studB.age < 20) {
+            throw new Exception("Validation Failed");
         }
 
-        if(studB.phnNo ==123456789){
+        if (studB.phnNo == 123456789) {
             throw new Exception("Invalid");
         }
 
@@ -37,6 +31,10 @@ public class Student {
         this.phnNo = studB.phnNo;
         this.gradYear = studB.gradYear;
 
+    }
+
+    public static Builder getBuilder() {
+        return new Builder();
     }
 
     @Override
@@ -59,9 +57,6 @@ public class Student {
         long phnNo;
         int gradYear;
 
-        public Student build() throws Exception{
-            return new Student(this);
-        }
 
         public Builder setName(String name) {
             this.name = name;
@@ -91,6 +86,10 @@ public class Student {
         public Builder setGradYear(int gradYear) {
             this.gradYear = gradYear;
             return this;
+        }
+
+        public Student build() throws Exception {
+            return new Student(this);
         }
     }
 
