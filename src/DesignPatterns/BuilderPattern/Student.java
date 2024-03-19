@@ -39,6 +39,18 @@ public class Student {
 
     }
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", psp=" + psp +
+                ", univName='" + univName + '\'' +
+                ", phnNo=" + phnNo +
+                ", gradYear=" + gradYear +
+                '}';
+    }
+
     public static class Builder {
         String name;
         int age;
@@ -83,3 +95,4 @@ public class Student {
     }
 
 }
+

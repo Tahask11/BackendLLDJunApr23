@@ -1,28 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="be23e7e9-fb51-4c34-9592-2b4e3ae23287" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/TicTacToe/Validations/CellValidation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Controllers/GameController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Controllers/GameController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Board.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Board.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/BotPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Cell.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Cell.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$Builder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game$Builder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/Game.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/HumanPlayer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Models/HumanPlayer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/BotPlayingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/BotPlayingStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/EasyPlayingStrategy.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/scalerBackendLLDAprJun23/TicTacToe/Strategies/EasyPlayingStrategy.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/BotPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Game.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/HumanPlayer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Models/Move.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Models/Move.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/TicTacToe/Strategies/RowWinningStrategy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Client.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Student.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -250,12 +236,16 @@
       </list>
     </option>
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
     <option name="y" value="23" />
     <option name="width" value="887" />
     <option name="height" value="733" />
   </component>
+  <component name="ProjectId" id="2dtluPy6GDycNC6tiHUVveyHFUN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -320,13 +310,19 @@
       <pane id="PackagesPane" />
     </panes>
   </component>
-  <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/ProducerConsumerSemaphores" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Client.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true"
+  }
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/ProducerConsumerSemaphores" />
@@ -346,19 +342,7 @@
       <recent name="DesignPatterns.Adapter.Library" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.App (3)">
+  <component name="RunManager" selected="Application.Client">
     <configuration name="App (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Strategy.App" />
       <module name="scalerBackendLLDAprJun23" />
@@ -399,19 +383,6 @@
       </method>
     </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesignPatterns.AbstractFactory.App" />
-      <module name="scalerBackendLLDAprJun23" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="DesignPatterns.AbstractFactory.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesignPatterns.Adapter.App" />
       <module name="scalerBackendLLDAprJun23" />
       <extension name="coverage">
@@ -437,6 +408,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesignPatterns.BuilderPattern.Client" />
+      <module name="scalerBackendLLDAprJun23" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="DesignPatterns.BuilderPattern.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="scalerBackendLLDAprJun23" />
@@ -445,7 +429,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.App" />
+      <item itemvalue="Application.Client" />
       <item itemvalue="Application.App (1)" />
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.App (2)" />
@@ -453,14 +437,22 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Client" />
         <item itemvalue="Application.App (3)" />
         <item itemvalue="Application.App (2)" />
         <item itemvalue="Application.App (1)" />
         <item itemvalue="Application.App (1)" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-13.0.14-azul-13.0.14-4caba194b151-0dc6e15b" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -543,67 +535,56 @@
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IntroToOOPs/Client.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Constructors/Client.java</url>
           <line>20</line>
-          <properties />
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Inheritance/Client.java</url>
           <line>11</line>
-          <properties />
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AbstractClass/Client.java</url>
           <line>12</line>
-          <properties />
           <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/IntroToThreads/Client3.java</url>
           <line>9</line>
-          <properties />
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/MultithreadedMergeSort/Sorter.java</url>
           <line>19</line>
-          <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/AdderSubtractor/Adder.java</url>
           <line>4</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/ProducerConsumerSemaphores/Client.java</url>
           <line>14</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DesignPatterns/Singleton/Client.java</url>
           <line>16</line>
-          <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DesignPatterns/BuilderPattern/Builder.java</url>
           <line>2</line>
-          <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/DesignPatterns/PrototypeAndRegistry/Client.java</url>
           <line>44</line>
-          <properties />
           <option name="timeStamp" value="23" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-field">

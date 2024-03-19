@@ -5,8 +5,6 @@ public class Client {
     public static void main(String[] args) {
 
         try {
-
-
             //Solution 1
 //            Builder b = new Builder();
 //            b.setName("Akash");
@@ -40,9 +38,11 @@ public class Client {
                     .build();
 
 
+            System.out.println(s);
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+
     }
 }
